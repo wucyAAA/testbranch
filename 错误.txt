@@ -1,0 +1,67 @@
+Invalid shorthand property initializer  创建对象时 冒号写出等于号
+写添加删除记录时写了一上午很扭曲的错误写不下来 希望不会忘记
+函数节流的例子实现有个问题思考了很久还是解决不了（好像是定时器问题）
+做jsonp解决跨域是用jquery操作dom没用 ，不知到为啥：：：：：
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#text").bind("click",function(){
+        alert("我的id为text，你点击时触发");
+    });
+    
+    $("#text1").on("click",function(){
+        alert("hellworl");
+    });
+    
+    $("#text2").click(function(){
+        alert($("#text2").val());
+        
+    });
+});
+vscode 不能用yarn，
+在powershell以管理员身份运行
+set-ExecutionPolicy RemoteSigned
+ 再y
+==============
+v-model只能用在Input标签中
+===========================
+Refused to apply style from 'http://localhost:8080/static/css/bootstrap.css' 
+because its MIME type ('text/html') is not a supported stylesheet MIME type, 
+and strict MIME checking is enabled.
+Refused to apply style from 'http://localhost:8080/static/css/bootstrap.css' 
+because its MIME type ('text/html') is not a supported stylesheet MIME type,
+ and strict MIME checking is enabled.
+该错误表示样式文件路径出错没找到文件
+--------------------------------------------------------------------------
+ValidationError: Invalid options object. Stylus Loaderhas been initialized
+ using an options object that does not match the API schema
+又是包的版本问题应该降级
+-----------------------------------------------------------
+stylus 格式非常重要！！！！！！！！！！！！！！
+上下级要注意
+-----------------------------------------------------------
+import ‘lib-flexible/flexible’
+引入这个文件时引号后面有个空格导致错误
+---------------------------------------------------------
+适配的精髓是  不同大小的页面 显示比例相同，不要总是想着数值！！！！！！！！pig
+--------------------------------------------------
+组件化编码的基本流程：
+	1.拆分界面，抽取组件。
+	2.编写静态组件
+	3.编写动态组件：初始化数据，动态显示初始化界面。 实现与用户交互功能。
+设计data：
+	类型：[{id:1,title:'',completed:false}]
+	名称:todos
+	位置：如果只是那个组件用，交给它，如果是那些组件用，交给共同的父组件。
+状态数据的更新
+	data数据定义在那个组件，更新数据的行为就定义在那个组件，
+	如果子组件要更新父组件的数据，调用父组件的更新函数来更新父组件的数据，
+	一个组件接收属性数据不要直接修改，只是用来读取显示的。
+任何界面的变化都是数据的变化，修改数据界面就变了称为 单向绑定一般说成数据绑定。
+
+面试基本靠这几点打动hr
+1.promise 2.axios 3.js高级 4.自定义 5.webpack 6.优化
+
+API:理解一：语法   理解二：前后端交互的接口
+
+
+引入文件时最好写全路径 带上 ./
